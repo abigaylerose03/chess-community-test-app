@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-// Remove the import statement for ChessCommunity
-// import ChessCommunity from './ChessCommunity';
+import ChessCommunity from './ChessCommunity';
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-      {/* Remove the ChessCommunity component */}
+      <ChessCommunity/>
     </div>
   );
 }
